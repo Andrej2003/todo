@@ -1,4 +1,17 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25rem;
+}
+
+header,
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+.container li {
+  background: #e9eff7;
+  margin-bottom: 1.11rem;
+  padding: 1rem;
+  border-radius: 9px;
 }
