@@ -1,3 +1,8 @@
+:root {
+  --light-blue: #e9eff7;
+  --black: #000;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.25rem;
@@ -10,7 +15,7 @@ header,
 }
 
 .container li {
-  background: #e9eff7;
+  background: var(--light-blue);
   margin-bottom: 1.11rem;
   padding: 1rem;
   border-radius: 9px;
@@ -19,12 +24,12 @@ header,
 .container .delete {
   width: fit-content;
   text-decoration: none;
-  color: #000;
-  background: #e9eff7;
+  color: var(--black);
+  background: var(--light-blue);
   padding: 1rem 1rem;
   border-radius: 9px;
 }
 
 .delete:hover {
-  background: #e4eaf3;
+  background: var(--light-blue);
 }
