@@ -15,3 +15,16 @@ header,
   padding: 1rem;
   border-radius: 9px;
 }
+
+.container .delete {
+  width: fit-content;
+  text-decoration: none;
+  color: #000;
+  background: #e9eff7;
+  padding: 1rem 1rem;
+  border-radius: 9px;
+}
+
+.delete:hover {
+  background: #e4eaf3;
+}
