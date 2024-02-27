@@ -43,3 +43,20 @@ button {
   color: var(--btn-text);
   font-size: 1rem;
 }
+
+input {
+  padding: 1.25rem;
+  border: 0;
+  background-color: var(--light-blue);
+  border-radius: 9px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: rgb(137, 137, 137);
+}
+
+input:focus {
+  border: 0;
+  outline: none;
+}
