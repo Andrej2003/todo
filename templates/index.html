@@ -26,7 +26,7 @@
           <button type="submit">Add</button>
         </form>
         {% for i in range(tasks | length) %}
-        <a href="{{ url_for('delete_task', task_id=i) }}">Delete</a>
+        <a href="{{ url_for('delete_task', task_id=i) }}" class="delete">Delete</a>
         {% endfor %}
       </div>
     </main>
