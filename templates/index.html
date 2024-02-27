@@ -22,7 +22,7 @@
           {% endfor %}
         </ul>
         <form action="/add" method="post">
-          <input type="text" name="task" placeholder="Add a new task" />
+          <input type="text" name="task" placeholder="Add a new task" required />
           <button type="submit">Add</button>
         </form>
         {% for i in range(tasks | length) %}
