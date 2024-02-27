@@ -1,6 +1,7 @@
 :root {
   --light-blue: #e9eff7;
   --black: #000;
+  --btn-text: #0c5bc3
 }
 
 body {
@@ -32,4 +33,13 @@ header,
 
 .delete:hover {
   background: var(--light-blue);
+}
+
+button {
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 9px;
+  background-color: var(--light-blue);
+  color: var(--btn-text);
+  font-size: 1rem;
 }
