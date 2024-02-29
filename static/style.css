@@ -15,9 +15,15 @@ header,
   justify-content: center;
 }
 
-.container li {
+.tasks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.tasks p {
   background: var(--light-blue);
-  margin-bottom: 1.11rem;
+  margin: 0;
   padding: 1rem;
   border-radius: 9px;
 }
@@ -29,10 +35,12 @@ header,
   background: var(--light-blue);
   padding: 1rem 1rem;
   border-radius: 9px;
+  align-self: center;
 }
 
 .delete:hover {
   background: var(--light-blue);
+  cursor: pointer;
 }
 
 button {
@@ -42,11 +50,13 @@ button {
   background-color: var(--light-blue);
   color: var(--btn-text);
   font-size: 1rem;
+  cursor: pointer;
 }
 
 input {
   padding: 1.25rem;
   border: 0;
+  margin: 1rem 0;
   background-color: var(--light-blue);
   border-radius: 9px;
 }
