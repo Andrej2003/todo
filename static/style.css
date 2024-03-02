@@ -1,6 +1,7 @@
 :root {
   --light-blue: #e9eff7;
   --black: #000;
+  --red: rgb(187, 21, 21);
   --btn-text: #0c5bc3
 }
 
@@ -31,11 +32,12 @@ header,
 .container .delete {
   width: fit-content;
   text-decoration: none;
-  color: var(--black);
+  color: var(--red);
   background: var(--light-blue);
   padding: 1rem 1rem;
   border-radius: 9px;
   align-self: center;
+  justify-self: center;
 }
 
 .delete:hover {
